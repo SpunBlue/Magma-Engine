@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="studioMagma.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="logoAnim0000" x="0" y="0" width="2108" height="1139"/>
+	<SubTexture name="logoAnim0001" x="2123" y="0" width="1616" height="874" frameX="-246" frameY="-133" frameWidth="2108" frameHeight="1139"/>
+	<SubTexture name="logoAnim0002" x="2123" y="889" width="1424" height="770" frameX="-342" frameY="-185" frameWidth="2108" frameHeight="1139"/>
+	<SubTexture name="logoAnim0003" x="0" y="1154" width="1292" height="702" frameX="-408" frameY="-219" frameWidth="2108" frameHeight="1139"/>
+	<SubTexture name="logoAnim0004" x="1307" y="1674" width="1180" height="639" frameX="-464" frameY="-250" frameWidth="2108" frameHeight="1139"/>
+	<SubTexture name="logoAnim0005" x="0" y="1871" width="1088" height="590" frameX="-510" frameY="-275" frameWidth="2108" frameHeight="1139"/>
+	<SubTexture name="logoAnim0006" x="2502" y="1674" width="1010" height="548" frameX="-549" frameY="-296" frameWidth="2108" frameHeight="1139"/>
+	<SubTexture name="logoAnim0007" x="2502" y="2237" width="944" height="511" frameX="-582" frameY="-314" frameWidth="2108" frameHeight="1139"/>
+	<SubTexture name="logoAnim0008" x="1103" y="2328" width="886" height="480" frameX="-611" frameY="-330" frameWidth="2108" frameHeight="1139"/>
+	<SubTexture name="logoAnim0009" x="0" y="2476" width="840" height="454" frameX="-634" frameY="-343" frameWidth="2108" frameHeight="1139"/>
+	<SubTexture name="logoAnim0010" x="1307" y="1154" width="800" height="432" frameX="-654" frameY="-354" frameWidth="2108" frameHeight="1139"/>
+	<SubTexture name="logoAnim0011" x="2004" y="2763" width="768" height="414" frameX="-670" frameY="-363" frameWidth="2108" frameHeight="1139"/>
+	<SubTexture name="logoAnim0012" x="855" y="2823" width="742" height="399" frameX="-683" frameY="-370" frameWidth="2108" frameHeight="1139"/>
+	<SubTexture name="logoAnim0013" x="0" y="2945" width="722" height="390" frameX="-693" frameY="-375" frameWidth="2108" frameHeight="1139"/>
+	<SubTexture name="logoAnim0014" x="2787" y="2763" width="708" height="383" frameX="-700" frameY="-378" frameWidth="2108" frameHeight="1139"/>
+	<SubTexture name="logoAnim0015" x="1612" y="3192" width="700" height="378" frameX="-704" frameY="-381" frameWidth="2108" frameHeight="1139"/>
+	<SubTexture name="logoAnim0016" x="2787" y="3161" width="700" height="379" frameX="-704" frameY="-380" frameWidth="2108" frameHeight="1139"/>
+	<SubTexture name="logoAnim0017" x="2787" y="3161" width="700" height="379" frameX="-704" frameY="-380" frameWidth="2108" frameHeight="1139"/>
+	<SubTexture name="logoAnim0018" x="2787" y="3161" width="700" height="379" frameX="-704" frameY="-380" frameWidth="2108" frameHeight="1139"/>
+	<SubTexture name="logoAnim0019" x="2787" y="3161" width="700" height="379" frameX="-704" frameY="-380" frameWidth="2108" frameHeight="1139"/>
+	<SubTexture name="logoAnim0020" x="2787" y="3161" width="700" height="379" frameX="-704" frameY="-380" frameWidth="2108" frameHeight="1139"/>
+	<SubTexture name="logoAnim0021" x="2787" y="3161" width="700" height="379" frameX="-704" frameY="-380" frameWidth="2108" frameHeight="1139"/>
+	<SubTexture name="logoAnim0022" x="2787" y="3161" width="700" height="379" frameX="-704" frameY="-380" frameWidth="2108" frameHeight="1139"/>
+	<SubTexture name="logoAnim0023" x="2787" y="3161" width="700" height="379" frameX="-704" frameY="-380" frameWidth="2108" frameHeight="1139"/>
+	<SubTexture name="logoAnim0024" x="2787" y="3161" width="700" height="379" frameX="-704" frameY="-380" frameWidth="2108" frameHeight="1139"/>
+	<SubTexture name="logoAnim0025" x="2787" y="3161" width="700" height="379" frameX="-704" frameY="-380" frameWidth="2108" frameHeight="1139"/>
+	<SubTexture name="logoAnim0026" x="2787" y="3161" width="700" height="379" frameX="-704" frameY="-380" frameWidth="2108" frameHeight="1139"/>
+	<SubTexture name="logoAnim0027" x="2787" y="3161" width="700" height="379" frameX="-704" frameY="-380" frameWidth="2108" frameHeight="1139"/>
+	<SubTexture name="logoAnim0028" x="2787" y="3161" width="700" height="379" frameX="-704" frameY="-380" frameWidth="2108" frameHeight="1139"/>
+	<SubTexture name="logoAnim0029" x="2787" y="3161" width="700" height="379" frameX="-704" frameY="-380" frameWidth="2108" frameHeight="1139"/>
+	<SubTexture name="logoAnim0030" x="2787" y="3161" width="700" height="379" frameX="-704" frameY="-380" frameWidth="2108" frameHeight="1139"/>
+	<SubTexture name="logoAnim0031" x="2787" y="3161" width="700" height="379" frameX="-704" frameY="-380" frameWidth="2108" frameHeight="1139"/>
+	<SubTexture name="logoAnim0032" x="2787" y="3161" width="700" height="379" frameX="-704" frameY="-380" frameWidth="2108" frameHeight="1139"/>
+	<SubTexture name="logoAnim0033" x="2787" y="3161" width="700" height="379" frameX="-704" frameY="-380" frameWidth="2108" frameHeight="1139"/>
+	<SubTexture name="logoAnim0034" x="2787" y="3161" width="700" height="379" frameX="-704" frameY="-380" frameWidth="2108" frameHeight="1139"/>
+	<SubTexture name="logoAnim0035" x="2787" y="3161" width="700" height="379" frameX="-704" frameY="-380" frameWidth="2108" frameHeight="1139"/>
+	<SubTexture name="logoAnim0036" x="2787" y="3161" width="700" height="379" frameX="-704" frameY="-380" frameWidth="2108" frameHeight="1139"/>
+	<SubTexture name="logoAnim0037" x="2787" y="3161" width="700" height="379" frameX="-704" frameY="-380" frameWidth="2108" frameHeight="1139"/>
+	<SubTexture name="logoAnim0038" x="2787" y="3161" width="700" height="379" frameX="-704" frameY="-380" frameWidth="2108" frameHeight="1139"/>
+	<SubTexture name="logoAnim0039" x="2787" y="3161" width="700" height="379" frameX="-704" frameY="-380" frameWidth="2108" frameHeight="1139"/>
+</TextureAtlas>
