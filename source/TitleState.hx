@@ -99,6 +99,10 @@ class TitleState extends MusicBeatState
 	function filterSpecial(input:String):String {
 		var startIndex:Int = input.indexOf('$');
 		var endIndex:Int = input.indexOf(' ', startIndex);
+
+		if (endIndex == -1)
+			endIndex = input.length;
+
 		var extracted:String = input.substr(startIndex + 1, endIndex - startIndex - 1);
 		return extracted;
 	}
@@ -168,6 +172,8 @@ class TitleState extends MusicBeatState
 				switch(filterSpecial(dis)){
 					case 'user':
 						curWacky[i] = dis.replace("$user", getUsername());
+					case 'dash':
+						curWacky[i] = dis.replace("$dash", '-');
 				}
 			}
 		}

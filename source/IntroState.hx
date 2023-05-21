@@ -63,11 +63,13 @@ class IntroState extends MusicBeatState{
     function skipIntro(){
         splash.destroy();
 
-        setColor = false;
-        FlxG.camera.bgColor = FlxColor.BLACK;
-
         Conductor.bpm = 100;
 
-        FlxG.switchState(new TitleState());
+        FlxG.camera.fade(FlxColor.BLACK, 1, false, function(){
+            setColor = false;
+            FlxG.camera.bgColor = FlxColor.BLACK;
+
+            FlxG.switchState(new TitleState());
+        }, true);
     }
 }
