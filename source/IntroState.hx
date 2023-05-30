@@ -61,7 +61,7 @@ class IntroState extends MusicBeatState{
     }
 
     function skipIntro(){
-        splash.destroy();
+        // splash.destroy();
 
         Conductor.bpm = 100;
 
