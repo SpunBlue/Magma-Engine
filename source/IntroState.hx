@@ -62,6 +62,7 @@ class IntroState extends MusicBeatState{
         // splash.destroy();
 
         Conductor.bpm = 100;
+        FlxG.sound.music.stop();
 
         FlxG.camera.fade(FlxColor.BLACK, 0.5, false, function(){
             setColor = false;
