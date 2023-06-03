@@ -1,3 +1,4 @@
+import haxe.Json;
 import flixel.FlxG;
 import haxe.Http;
 import sys.io.File;
@@ -14,18 +15,14 @@ class UpdateCheckState extends MusicBeatState{
         http.request();
 
         var data:Dynamic = http.responseData;
-        var json:UpdateData = null;
+        var json:UpdateData = Json.parse(data);
 
-        try{
-            json = data;
-        }
-        catch(e:Dynamic){
-            // Open error screen
-            trace('Error: ' + e);
-        }
+        trace(json);
 
-        if (json.version != MainMenuState.psychEngineVersion)
+        if (json.version != MainMenuState.psychEngineVersion && json.version != null){
+            trace(json.version + " is not equal to " + MainMenuState.psychEngineVersion);
             engineUpdate(json);
+        }
         else{
             updateComplete = true;
             FlxG.switchState(new MainMenuState());
