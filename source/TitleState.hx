@@ -164,7 +164,7 @@ class TitleState extends MusicBeatState
 
 		curWacky = FlxG.random.getObject(getIntroTextShit());
 
-		// :troll:
+		// :troll: kinda broken but hey its funny
 		for (i in 0...curWacky.length){
 			var dis:String = curWacky[i];
 
@@ -174,6 +174,8 @@ class TitleState extends MusicBeatState
 						curWacky[i] = dis.replace("$user", getUsername());
 					case 'dash':
 						curWacky[i] = dis.replace("$dash", '-');
+					case 'newline':
+						curWacky[i] = dis.replace("$newline", '\n');
 				}
 			}
 		}

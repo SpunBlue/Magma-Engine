@@ -26,7 +26,7 @@ class IntroState extends MusicBeatState{
 
         super.create();
 
-        FlxG.save.bind('funkin', 'ninjamuffin99');
+        FlxG.save.bind('funkin', 'studiomagma');
 
         PlayerSettings.init();
 		ClientPrefs.loadPrefs();
@@ -52,10 +52,8 @@ class IntroState extends MusicBeatState{
             splash.animation.play("bump");
         }
         else if (curBeat == 3){
-            FlxTween.tween(splash, {y: FlxG.height}, 1, {ease: FlxEase.circInOut, onComplete: function(bruh:Dynamic){
-                new FlxTimer().start(1, function(tmr:FlxTimer){
-                    skipIntro();
-                });
+            FlxTween.tween(splash, {y: FlxG.height}, 1.5, {ease: FlxEase.circInOut, onComplete: function(bruh:Dynamic){
+                skipIntro();
             }});
         }
     }
@@ -65,7 +63,7 @@ class IntroState extends MusicBeatState{
 
         Conductor.bpm = 100;
 
-        FlxG.camera.fade(FlxColor.BLACK, 1, false, function(){
+        FlxG.camera.fade(FlxColor.BLACK, 0.5, false, function(){
             setColor = false;
             FlxG.camera.bgColor = FlxColor.BLACK;
 
